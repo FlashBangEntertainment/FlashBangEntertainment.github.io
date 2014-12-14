@@ -697,7 +697,7 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .input-text:focus {
-	border: 1px solid #7cc576;
+	border: 1px solid #ffac0d;
 	outline:0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);	
@@ -712,7 +712,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background:#ff6600;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -726,7 +726,7 @@ border: 2px solid #fff;
 }
 
 .input-btn:hover{
-	background: #111;
+	background: #ffac0d;
 	color: #fff;
 }
 
