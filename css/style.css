@@ -139,7 +139,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#ff6600;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -155,12 +155,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
-	background:#fff;
+	color:#fff !important;
+	background:#ffac0d;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #ff6600;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -199,7 +199,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #FFAC0D;
 }
 
 .small-logo{ 
@@ -334,7 +334,7 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .Portfolio-nav li a:hover{
-	background:#7cc576;
+	background:#FFAC0D;
 	color:#fff;
 	text-decoration:none;
 }
@@ -365,7 +365,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#ff6600;
 	color:#fff;
 	text-decoration:none;
 }
@@ -439,13 +439,13 @@ img {
 	width:68px;
 	height:68px;
 	margin:0 auto;
-	border:2px solid #7cc576;
+	border:2px solid #ff6600;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
 	font-size:27px;
-	color:#7cc576;
+	color:#ffac0d;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
