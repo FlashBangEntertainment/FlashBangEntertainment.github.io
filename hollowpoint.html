@@ -161,9 +161,9 @@
 							<!-- Slideshow 1 -->
 							<div class="rslides_container">
 							  <ul class="rslides" id="slider1">
-								<li><img src="img/tim1.jpg" alt=""></li>
-								<li><img src="img/tim2.jpg" alt=""></li>
-								<li><img src="img/tim3.jpg" alt=""></li>
+								<!--<li><img src="img/tim1.jpg" alt=""></li>-->
+								<li><img src="img\Hollowpoint\HollowpointLogoAlt.png" alt=""></li>
+								<!--<li><img src="img/tim3.jpg" alt=""></li>-->
 							  </ul>
 							</div>
 						</div>
@@ -207,77 +207,7 @@
 			<script type="text/javascript" src="js/custom.js"></script>
 
 
-<!--*** Edit Song Area *** Note: We used JPLAYER for music embedding with some custom styling -->
-<script type="text/javascript">
-//<![CDATA[
-$(document).ready(function(){
 
-	$("#jquery_jplayer_1").jPlayer({
-		ready: function () {
-			$(this).jPlayer("setMedia", {
-				title: "Hollow Point - ",
-				mp3: "assets/HollowPoint/.mp3"
-			});
-		},
-		play: function() { // To avoid multiple jPlayers playing together.
-			$(this).jPlayer("pauseOthers");
-		},
-		swfPath: "../../js",
-		supplied: "mp3",
-		wmode: "window",
-		globalVolume: true,
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-
-	$("#jquery_jplayer_2").jPlayer({
-		ready: function () {
-			$(this).jPlayer("setMedia", {
-				title: "Hollow Point - ",
-				mp3: "assets/HollowPoint/.mp3"
-			});
-		},
-		play: function() { // To avoid multiple jPlayers playing together.
-			$(this).jPlayer("pauseOthers");
-		},
-		swfPath: "../../js",
-		supplied: "mp3",
-		cssSelectorAncestor: "#jp_container_2",
-		wmode: "window",
-		globalVolume: true,
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-
-	$("#jquery_jplayer_3").jPlayer({
-		ready: function () {
-			$(this).jPlayer("setMedia", {
-				title: "Hollow Point - ",
-				mp3: "assets/HollowPoint/.mp3"
-			});
-		},
-		play: function() { // To avoid multiple jPlayers playing together.
-			$(this).jPlayer("pauseOthers");
-		},
-		swfPath: "../../js",
-		supplied: "mp3",
-		cssSelectorAncestor: "#jp_container_3",
-		wmode: "window",
-		globalVolume: true,
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-
-
-});	
-//]]>
-</script>
 
 
 		</div>
