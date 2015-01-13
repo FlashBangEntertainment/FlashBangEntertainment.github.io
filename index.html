@@ -112,12 +112,7 @@ header .logo1 {
     max-width: 150px;
 }
 
-header .scroll-down {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-}
+
 
 header .scroll-down .btn {
     width: 50px;
@@ -144,15 +139,16 @@ header .scroll-down .btn:hover {
     header {
         width: 100%;
         height: 100%;
-        padding: 0;
+        padding: 200px;
         background-attachment: scroll;
+		
     }
-
+.maindiv{min-height:750px;}
     header .intro-content {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
-        width: 50%;
+        width: 80%;
         margin: auto;
         text-align: center;
         color: #fff;
@@ -183,7 +179,23 @@ header .scroll-down .btn:hover {
     }
 }
 
+header .scroll-down {
+    position: absolute;
 
+    width: 100%;
+    text-align: center;
+	}
+
+@media(max-width:768px) {
+.scroll-down {
+display:none;
+    position: absolute;
+    bottom:50px;
+    width: 100%;
+    text-align: center;
+	}
+	.maindiv{min-height:450px;}
+}	
 	
 	
 	</style>
@@ -191,7 +203,7 @@ header .scroll-down .btn:hover {
     
 </head>
 <body>
-<div style="overflow:hidden;height:100%;">
+<div style="overflow:hidden;height:100%;" class="maindiv">
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
@@ -208,7 +220,7 @@ header .scroll-down .btn:hover {
     </div>
 </nav><!--main-nav-end-->
 
-<header class="header" id="header test" style="height:100%;"><!--header-start-->
+<header class="header" id="header test" style="height:100%; padding-top:20px;"><!--header-start-->
 	<div class="container" id="PageTop" style="height:100%; ">
 		<div class="intro-content" style="margin:auto;">
 			<figure class="logo bigEntrance"><div style="height:100%; width:100%; "><img src="img/logo.png" style="width:100%" alt="" class="logo1"></div>	
@@ -217,10 +229,13 @@ header .scroll-down .btn:hover {
 			<ul class=".brand-name-subtext we-create animated fadeInUp delay-1s">
 				<li>We provide top quality live entertainment while offering you a range of options to fit your specific requests and budget. </li>
 			</ul>
-			<div class="floating" style=""><a href="#service"><i class="fa-caret-square-o-down fa-5x"></i></div></a>
+					<div class="floating scroll-down" style=""><a href="#service"><i class="fa-caret-square-o-down fa-5x"></i></a></div>	
 		</div>
+
     </div>
+
 </div>
+
 </header><!--header-end-->
 
 
