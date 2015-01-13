@@ -61,12 +61,26 @@
 	
 	<style>
 	.floating1{a:link:#ff6600ff; a:visited:#ff6600ff; color:#ff6600ff;}
+	html {height:100%;}
+	body {height:100%;}
+	#fun {position: absolute;
+top: 50%;
+left: 50%;
+width: 50%;
+margin: auto;
+text-align: center;
+color: #fff;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+padding-top:100px;}
+	
 	</style>
     
     
 </head>
 <body>
-<div style="overflow:hidden;">
+<div style="overflow:hidden;height:100%;">
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
@@ -83,15 +97,17 @@
     </div>
 </nav><!--main-nav-end-->
 
-<header class="header" id="header test"><!--header-start-->
-	<div class="container" id="PageTop">
-    	<figure class="logo bigEntrance"><div style="height:100%; width:100%"><img src="img/logo.png" style="width:100%" alt=""></div>	
-        </figure>	
-        <h1 class="">FlashBang Entertainment</h1>
-        <ul class="we-create animated fadeInUp delay-1s">
-        	<li>We provide top quality live entertainment while offering you a range of options to fit your specific requests and budget. </li>
-        </ul>
-		<div class="floating" style=""><a href="#service"><i class="fa-caret-square-o-down fa-5x"></i></div></a>
+<header class="header" id="header test" style="height:100%;"><!--header-start-->
+	<div class="container" id="PageTop" style="height:100%; ">
+		<div id="fun" style="margin:auto;">
+			<figure class="logo bigEntrance"><div style="height:100%; width:100%; "><img src="img/logo.png" style="width:100%" alt=""></div>	
+			</figure>	
+			<h1 class="">FlashBang Entertainment</h1>
+			<ul class="we-create animated fadeInUp delay-1s">
+				<li>We provide top quality live entertainment while offering you a range of options to fit your specific requests and budget. </li>
+			</ul>
+			<div class="floating" style=""><a href="#service"><i class="fa-caret-square-o-down fa-5x"></i></div></a>
+		</div>
     </div>
 </div>
 </header><!--header-end-->
